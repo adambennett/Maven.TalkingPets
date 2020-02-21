@@ -16,4 +16,9 @@ public abstract class Pet {
     }
 
     public abstract String speak();
+
+    @Override
+    public String toString(){
+        return this.name;
+    }
 }
